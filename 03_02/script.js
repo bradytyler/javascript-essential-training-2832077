@@ -20,3 +20,14 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+const luggage = {
+  name: "Suitcase",
+  volume: 70,
+  color: "grey",
+  pocketNum: 2,
+  lidOpen: false,
+  toggleLid: function (lidStatus) {
+    this.lidOpen = lidStatus;
+  },
+};

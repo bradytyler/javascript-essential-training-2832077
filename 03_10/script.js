@@ -14,5 +14,17 @@ const everydayPack = new Backpack(
   false
 );
 
+const secondaryPack = new Backpack(
+  "Secondary Backpack",
+  40,
+  "aqua",
+  30,
+  15,
+  15,
+  true
+);
+
 console.log("The everydayPack object:", everydayPack);
-console.log("The pocketNum value:", everydayPack.pocketNum);
+console.log("The secondaryPack object:", secondaryPack);
+
+//console.log("The pocketNum value:", everydayPack.pocketNum);

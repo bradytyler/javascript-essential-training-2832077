@@ -21,4 +21,29 @@ const backpack = {
   },
 };
 
+/*
 console.log("The backpack object:", backpack);
+console.log("The pocketNum value:", backpack.pocketNum);
+console.log("Strap length left:", backpack.strapLength.left);
+
+var query = "pocketNum";
+console.log("The pocketNum value:", backpack[query]);
+*/
+
+// Brady's Objects
+
+const airpods = {
+  name: "Brady's AirPod Pro Headphones",
+  color: "white",
+  caseBattery: 0.8,
+  airpodBattery: {
+    leftBud: 1,
+    rightBud: 0.9,
+  },
+  inUse: false,
+  toggleUse: function (useStatus) {
+    this.inUse = useStatus;
+  },
+};
+
+console.log("AirPod Usage Status:", airpods.inUse);
